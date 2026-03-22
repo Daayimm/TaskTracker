@@ -35,7 +35,7 @@ def editTasks(id):
         writer.writerows(rows)
         
 def viewTasks(userInput):
-    statusMap = {'1' : 'done','2' : 'not done','3':'in-progress'}
+    statusMap = {'1' : 'done','2' : 'not done','3':'in progress'}
     filterStatus = statusMap[userInput]
     rows = readCSV()
     for row in rows:

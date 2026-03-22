@@ -49,7 +49,6 @@ def taskListMenu():
         
         if userInput == '1' or userInput == '2' or userInput == '3':
             viewTasks(userInput)
-            break
         elif userInput == '4':
             MenuPage()
             break
